@@ -62,6 +62,11 @@ namespace Ejemplo1
             MessageBox.Show("Nombre: " + nombre + ". Fecha de nacimiento: " + fecha + mensaje);
 
         }
+
+        private void txtNombre_TextChanged(object sender, EventArgs e)
+        {
+            //CAMBIO PARA VER
+        }
     }
 }
 
